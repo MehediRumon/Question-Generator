@@ -1,0 +1,132 @@
+.question-display {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.question-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #333;
+  padding-bottom: 1rem;
+}
+
+.exam-title {
+  color: #c00;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.exam-subtitle {
+  color: #00c;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.set-indicator {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.question-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.question-table th,
+.question-table td {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+.question-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.question-number {
+  width: 50px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.question-text {
+  padding: 0.75rem;
+}
+
+.question-bengali {
+  margin-bottom: 0.5rem;
+  font-family: 'Noto Sans Bengali', 'Kalpurush', sans-serif;
+}
+
+.question-english {
+  color: #333;
+}
+
+.set-row {
+  background-color: #fff3cd;
+}
+
+.set-cell {
+  color: #c00;
+  font-weight: bold;
+  text-align: center;
+}
+
+.option-row td {
+  padding: 0.25rem 0.5rem;
+}
+
+.option-bengali {
+  font-family: 'Noto Sans Bengali', 'Kalpurush', sans-serif;
+}
+
+.answer-row {
+  background-color: #d4edda;
+}
+
+.answer-marker {
+  color: #c00;
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.explanation-row td {
+  padding: 0.75rem;
+  background-color: #f8f9fa;
+}
+
+.explanation-bengali {
+  font-family: 'Noto Sans Bengali', 'Kalpurush', sans-serif;
+}
+
+.answer-row-final td {
+  text-align: center;
+  font-weight: bold;
+  background-color: #e9ecef;
+}
+
+.correct-answer {
+  color: #28a745;
+}
+
+.option-shuffle {
+  color: #6c757d;
+}
+
+/* Print styles */
+@media print {
+  .question-display {
+    box-shadow: none;
+    padding: 0;
+  }
+  
+  .question-form {
+    display: none;
+  }
+}
